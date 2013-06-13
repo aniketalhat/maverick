@@ -1,17 +1,26 @@
-Introduction
+TwitterApp
 ========
 
-TwitterApp
+Introduction
 -----------
 TwitterApp is the Java Application implemented using Twitter4J libraries which is required to extract the basic 
 details and status updates of specified user.
 The details include Latest status update, Followers, Following, and a score calculated as a Retweet count of particular post
 
-Twitter4J
+Building
+----------
+
+Compile the ShowUser.java file:
+javac ShowUser.java
+
+Execute the ShowUser:
+java ShowUser
+
+Libraries Twitter4J
 ----------
 Twitter4J is a Twitter API binding library for the Java language licensed under Apache License 2.0.
-
-Twitter4J includes software from JSON.org to parse JSON response from the Twitter API. You can see the license term at http://www.JSON.org/license.html
+Twitter4J includes software from JSON.org to parse JSON response from the Twitter API. 
+You can see the license term at http://www.JSON.org/license.html
 
 
 License
