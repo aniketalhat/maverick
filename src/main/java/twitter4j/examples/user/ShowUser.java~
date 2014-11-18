@@ -22,10 +22,10 @@ public final class ShowUser {
 		        
 		         cb = new ConfigurationBuilder();
 		         cb.setDebugEnabled(true)
-		         .setOAuthConsumerKey("")
-		         .setOAuthConsumerSecret("")
-		         .setOAuthAccessToken("")
-		         .setOAuthAccessTokenSecret("");
+		         .setOAuthConsumerKey("hT0ZtwZSKYb408iLOUO38w")
+		         .setOAuthConsumerSecret("2gDRSPKDsdm2MX2rGny0jK8t8YfdiTZKxMiR7Nc82A")
+		         .setOAuthAccessToken("296890880-urKZtaUymaf9HzJXlN4PzFV4mRzM9MyCmI6rw2mx")
+		         .setOAuthAccessTokenSecret("vomL6G20pXzgLmb7UhXMPrmvbUhysu9jr3dwxggmJQ5Zu");
 		        
 		         Twitter twitter = new TwitterFactory(cb.build()).getInstance();
 	             User user = twitter.showUser(uname);
